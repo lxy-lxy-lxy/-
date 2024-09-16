@@ -236,6 +236,28 @@ export default {
               ],
             },
             {
+              path: '/test',
+              name: 'test',
+              icon: 'profile',
+              routes: [
+                {
+                  name: 'testone',
+                  path: '/test/testone',
+                  component: './test/testone',
+                },
+                {
+                  name: 'testsecond',
+                  path: '/test/testsecond',
+                  component: './test/testsecond',
+                },
+                {
+                  name: 'testthird',
+                  path: '/test/testthird',
+                  component: './test/testthird',
+                },
+              ],
+            },
+            {
               name: 'result',
               icon: 'check-circle-o',
               path: '/result',

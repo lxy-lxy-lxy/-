@@ -1,0 +1,30 @@
+@import '~antd/es/style/themes/default.less';
+
+.standardTable {
+  :global {
+    .ant-table-pagination {
+      margin-top: 24px;
+    }
+    .ant-table-thead > tr > th > {
+      text-align: center;
+    }
+    .ant-table-tbody > tr > td {
+      text-align: center;
+    }
+    table {
+      text-align: center;
+      table-layout: fixed;
+    }
+    td {
+      width: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      word-break: break-all;
+    }
+  }
+
+  .tableAlert {
+    margin-bottom: 16px;
+  }
+}
